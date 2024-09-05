@@ -22,3 +22,6 @@ foreach(int i in arrayInteiros)
     Console.WriteLine($"Posição Nº {contador} - Valor = {i} ");
     contador++;
 }
+
+//Redmensionando o Array
+Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
